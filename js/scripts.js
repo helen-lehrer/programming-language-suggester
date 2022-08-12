@@ -2,7 +2,7 @@
 //User Interface Logic
 function hideResults() {
   document.getElementById("javascript").setAttribute("class", "hidden"); 
-  document.getElementById("c#").setAttribute("class", "hidden");
+  document.getElementById("c-sharp").setAttribute("class", "hidden");
   document.getElementById("ruby").setAttribute("class", "hidden");
 }
 
@@ -18,7 +18,7 @@ function enterQuestions(event) {
   if (answer1 === '1' && (answer2 === '1' || answer2 === '2' || answer2 === '3')) {
     document.getElementById("javascript").removeAttribute("class"); 
   } else if (answer1 === '2' && answer2 === '2') {
-    document.getElementById("c#").removeAttribute("class");
+    document.getElementById("c-sharp").removeAttribute("class");
   } else if ((answer1 === '2' && (answer2 === '1' || answer2 === '3')) || (answer1 === '3' && (answer2 === '1' || answer2 === '2' || answer2 === '3'))) {
     document.getElementById("ruby").removeAttribute("class");
   }

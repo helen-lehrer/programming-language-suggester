@@ -1,3 +1,58 @@
 .hidden {
   display: none;
 }
+
+body {
+background-color: rgb(236, 236, 236);
+font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(90, 22, 100);
+}
+
+h4 {
+  color: rgb(0, 0, 146);
+}
+
+label {
+  color: rgb(90, 22, 100);
+}
+
+hr {
+  background-color: rgb(155, 152, 152);
+  height: 1px;
+  border: none;
+}
+
+button {
+  background-color: rgb(90, 22, 100);
+  border: none;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: white;
+}
+
+#javascript p, #c-sharp p, #ruby p {
+  color: rgb(90, 22, 100);
+}
+
+#javascript h2, #c-sharp h2, #ruby h2 {
+  color: rgb(0, 0, 146);
+  font-style: italic; 
+}
