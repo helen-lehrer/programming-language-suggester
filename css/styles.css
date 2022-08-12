@@ -9,6 +9,7 @@ font-family: Arial, sans-serif;
 
 h1 {
   color: rgb(90, 22, 100);
+  margin: 10px;
 }
 
 h4 {
@@ -31,20 +32,23 @@ button {
   color: white;
   padding: 15px;
   margin: 10px;
+  display: inline-block;
   font-size: 16px;
 }
 
 a:link, a:visited {
   text-decoration: none;
   padding: 10px;
-  margin-top: 20px;
+  margin: 15px;
+  display: inline-block;
   background-color: white;
 }
 
 a:hover, a:active {
   text-decoration: underline;
   padding: 10px;
-  margin-top: 20px;
+  margin: 10px;
+  display: inline-block;
   background-color: white;
 }
 
@@ -55,4 +59,8 @@ a:hover, a:active {
 #javascript h2, #c-sharp h2, #ruby h2 {
   color: rgb(0, 0, 146);
   font-style: italic; 
+}
+
+#languages-image {
+  padding: 5px;
 }
