@@ -1,6 +1,6 @@
 # Programming Language Suggester
 ### By: *Helen Lehrer*
-Date Created: 8/12/2022
+### Date Created: 8/12/2022
 ---
 ### [Link to Site]()
 ---
@@ -16,7 +16,8 @@ Date Created: 8/12/2022
 * `Javascript`
 * `C#`
 * `Ruby`
-Each form submission displays one result with information about that language and a link leading them to more information.
+
+Each form submission displays one result with information about that language and a link leading them to more information from official documentation sources.
 ---
 
 ### Setup/Installation Requirements
@@ -28,6 +29,7 @@ $ cd programming-language-suggester
 $ code .
 ```
 To take the survey, simply open index.html in your browser.
+
 ---
 ### Known Bugs
 * Doesn't display well on mobile devices
