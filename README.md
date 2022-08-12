@@ -1,26 +1,38 @@
 # Programming Language Suggester
 ### By: *Helen Lehrer*
 Date Created: 8/12/2022
+---
 ### [Link to Site]()
+---
 ### Technologies Used
 * HTML
 * CSS
 * Bootstrap CSS
+---
 
 ### Description
 
-This is an application for people interested in coding to decide which language they should learn first out of three options: Javascript, C#, or Ruby. It asks the user a series of 5 survey questions and suggests the best match for the user after the form has been submitted. Each form submission displays one result.  
+`Programming Language Suggestor` is an application survey for users interested in learning to code to help them decide which language they should learn first. It asks the user a series of 5 survey questions and suggests one of the three languages based on their answers: 
+* `Javascript`
+* `C#`
+* `Ruby`
+Each form submission displays one result with information about that language and a link leading them to more information.
+---
 
 ### Setup/Installation Requirements
 
-For display-only, [Click Here](https://helen-lehrer.github.io/portfolio)
-
-For code access:
-* Clone this repository to your desktop.
-* Navigate to the top level of the directory.
-* Open index.html in your browser for viewing.
+#### To access the code in a source code editor: 
+```bash
+$ git clone https://github.com/helen-lehrer/programming-language-suggester
+$ cd programming-language-suggester
+$ code .
+```
+To take the survey, simply open index.html in your browser.
+---
 ### Known Bugs
 * Doesn't display well on mobile devices
+* The branching logic doesn't take into account all survey question answers
+---
 ### License
 [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
