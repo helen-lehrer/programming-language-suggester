@@ -17,7 +17,6 @@
 * `C#`
 * `Ruby`
 
-Each form submission displays one result with information about that language and a link leading them to more information from official documentation sources.
 ---
 
 ### Setup/Installation Requirements

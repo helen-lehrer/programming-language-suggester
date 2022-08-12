@@ -1,10 +1,6 @@
 .hidden {
   display: none;
 }
-#heading-image {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
 
 .result-image {
   padding-bottom: 10px;
@@ -12,17 +8,19 @@
 
 body {
 background-color: rgb(236, 236, 236);
-font-family: Arial, sans-serif;
+font-family: monospace;
 }
 
 h1 {
   color: rgb(90, 22, 100);
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 32px;
 }
 
 h4 {
   color: rgb(0, 0, 146);
+  font-size: 20px;
 }
 
 label {
@@ -35,15 +33,7 @@ hr {
   border: none;
 }
 
-#button {
-  background-color: rgb(90, 22, 100);
-  border: none;
-  color: rgb(255, 255, 255);
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 15px;
-  margin-bottom: 30px;
-  display: inline-block;
+div {
   font-size: 16px;
 }
 
@@ -63,6 +53,23 @@ a:hover, a:active {
   display: inline-block;
   background-color: rgb(202, 202, 202);
   color: rgb(90, 22, 100);
+}
+
+#heading-image {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#button {
+  background-color: rgb(90, 22, 100);
+  border: none;
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  display: inline-block;
+  font-size: 16px;
 }
 
 #javascript p, #c-sharp p, #ruby p {
@@ -86,6 +93,9 @@ a:hover, a:active {
 
 #javascript, #ruby, #c-sharp {
   background-color: white;
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
   margin-bottom: 15px;
   margin-bottom: 15px;
 }

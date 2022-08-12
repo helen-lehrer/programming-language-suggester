@@ -1,12 +1,14 @@
-
 //User Interface Logic
+
+//hides results upon resubmission of the form
 function hideResults() {
   document.getElementById("javascript").setAttribute("class", "hidden"); 
   document.getElementById("c-sharp").setAttribute("class", "hidden");
   document.getElementById("ruby").setAttribute("class", "hidden");
 }
 
-function enterQuestions(event) {
+//gathers form data & performs branching logic
+function submitQuestions(event) {
   event.preventDefault();
   hideResults();
   const answer1 = document.querySelector("input[name='internet']:checked").value;
@@ -24,7 +26,16 @@ function enterQuestions(event) {
   }
 }
 
+//inputs user's name into the results
+function submitName () {
+  document.getElementById("c-sharp-name").innerText = document.getElementById("name-input").value;
+  document.getElementById("javascript-name").innerText = document.getElementById("name-input").value;
+  document.getElementById("ruby-name").innerText = document.getElementById("name-input").value;
+}
+
+//creates an event listener for the submit button 
 window.addEventListener("load", function() {
   const form = document.getElementById("questions");
-  form.addEventListener("submit", enterQuestions);
+  form.addEventListener("submit", submitQuestions);
+  form.addEventListener("submit", submitName);
 });
