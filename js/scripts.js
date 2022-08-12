@@ -17,6 +17,10 @@ function submitQuestions(event) {
   const answer4 = document.querySelector("input[name='values']:checked").value;
   const answer5 = document.querySelector("input[name='work']:checked").value;
 
+  if answer1 {
+    let 
+  }
+
   if (answer1 === '1' && (answer2 === '1' || answer2 === '2' || answer2 === '3')) {
     document.getElementById("javascript").removeAttribute("class"); 
   } else if (answer1 === '2' && answer2 === '2') {

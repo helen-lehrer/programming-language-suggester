@@ -1,7 +1,8 @@
 # Programming Language Suggester
-### By: *Helen Lehrer*
-### Date Created: 8/12/2022
----
+
+**By: Helen Lehrer**  
+**Date Created: 8/12/2022**
+
 ### [Link to Site]()
 ---
 ### Technologies Used
@@ -17,6 +18,8 @@
 * `C#`
 * `Ruby`
 
+Each form submission displays one result with information about that language and a link leading them to more information from official documentation sources.
+
 ---
 
 ### Setup/Installation Requirements
@@ -27,7 +30,7 @@ $ git clone https://github.com/helen-lehrer/programming-language-suggester
 $ cd programming-language-suggester
 $ code .
 ```
-To take the survey, simply open index.html in your browser.
+To take the survey, simply preview index.html in your browser.
 
 ---
 ### Known Bugs
