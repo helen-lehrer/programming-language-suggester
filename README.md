@@ -3,7 +3,7 @@
 **By: Helen Lehrer**  
 **Date Created: 8/12/2022**
 
-### [Link to Site]()
+### [Link to Site](https://helen-lehrer.github.io/programming-language-suggester/)
 ---
 ### Technologies Used
 * HTML
