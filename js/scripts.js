@@ -7,7 +7,7 @@ function hideResults() {
   document.getElementById("ruby").setAttribute("class", "hidden");
 }
 
-//gathers form data & performs branching logic
+//gathers form data & performs branching logic to display answer
 function submitQuestions(event) {
   event.preventDefault();
   hideResults();
@@ -16,10 +16,6 @@ function submitQuestions(event) {
   const answer3 = document.querySelector("input[name='programming']:checked").value;
   const answer4 = document.querySelector("input[name='values']:checked").value;
   const answer5 = document.querySelector("input[name='work']:checked").value;
-
-  if answer1 {
-    let 
-  }
 
   if (answer1 === '1' && (answer2 === '1' || answer2 === '2' || answer2 === '3')) {
     document.getElementById("javascript").removeAttribute("class"); 
@@ -31,7 +27,7 @@ function submitQuestions(event) {
 }
 
 //inputs user's name into the results
-function submitName () {
+function submitName() {
   document.getElementById("c-sharp-name").innerText = document.getElementById("name-input").value;
   document.getElementById("javascript-name").innerText = document.getElementById("name-input").value;
   document.getElementById("ruby-name").innerText = document.getElementById("name-input").value;
